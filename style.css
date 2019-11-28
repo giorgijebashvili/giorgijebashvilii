@@ -1,76 +1,16 @@
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color:grey;
-    color:black;
-    text-align: center;
-  }
+.container{
+    margin:auto;
+    width:800px;
+    min-height:300px;
+    border: solid 1px;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+.container table{
+    padding: 10px;
 
- ul{
-background-color: #5e5d5d;
-color: #d8d8d8;
-
-font-size: 20px;
-font-family: sans-serif;
-
- }
- ul>li{
-
-  list-style-type: none;
-  display: inline-block;
-  padding: 5px 25px;
-  position: relative;
-
- }
- ul>li:hover{
-   background-color:#383838;
-   
-
- }
- ul.submenu{
-   position:absolute;
-   background-color:lightgray;
-   color: darkblue;
-   list-style-type: none;
-   width: 125px;
-   padding-left: 0px;
-   padding-top: 5px;
-   margin-left: -25px;
-   opacity: 0;
- }
- ul.submenu li{
-   padding: 5px 25px;
- }
- li:hover .submenu{
-  opacity: 1; 
- }
- ul ul{
-   display:none;
- }
- ul li:hover>ul{
-   display:block;
-   
- }
-
- ul ul ul{
-  background-color:#383838;
-  list-style-type: none;
-  width: 125px;
-  padding-left: 0px;
-  padding-top: 0px;
-  margin-left: 150px;
-  position: absolute;
- }
- table{
-margin-left: 500px;
-  width: 500px;
-  height: 500px;
-
- }
- td{ 
-  background-color:yellow;
-  color: blue;
- }
- 
+}
+.captcha{
+    background-color: grey;
+}
