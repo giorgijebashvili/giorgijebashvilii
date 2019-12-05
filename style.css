@@ -1,16 +1,8 @@
-.container{
+#square{
+    width: 200px;
+    height: 400px;
     margin:auto;
-    width:800px;
-    min-height:300px;
-    border: solid 1px;
-    padding: 20px;
-    box-sizing: border-box;
+    border: solid 2px red;
+    background: yellow;
     
-}
-.container table{
-    padding: 10px;
-
-}
-.captcha{
-    background-color: grey;
 }
